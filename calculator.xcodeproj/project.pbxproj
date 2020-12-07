@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5F0AE293257D8C7D00BDAA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AE292257D8C7D00BDAA5F /* AppDelegate.swift */; };
-		5F0AE295257D8C7D00BDAA5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AE294257D8C7D00BDAA5F /* SceneDelegate.swift */; };
 		5F0AE297257D8C7D00BDAA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AE296257D8C7D00BDAA5F /* ViewController.swift */; };
-		5F0AE29A257D8C7D00BDAA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0AE298257D8C7D00BDAA5F /* Main.storyboard */; };
 		5F0AE29C257D8C7F00BDAA5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0AE29B257D8C7F00BDAA5F /* Assets.xcassets */; };
 		5F0AE29F257D8C7F00BDAA5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0AE29D257D8C7F00BDAA5F /* LaunchScreen.storyboard */; };
 		5F0AE2AA257D8C8000BDAA5F /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AE2A9257D8C8000BDAA5F /* calculatorTests.swift */; };
 		5F0AE2B5257D8C8000BDAA5F /* calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AE2B4257D8C8000BDAA5F /* calculatorUITests.swift */; };
+		5FD110AE257ECF2200FCDD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD110AD257ECF2200FCDD21 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +36,7 @@
 /* Begin PBXFileReference section */
 		5F0AE28F257D8C7D00BDAA5F /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0AE292257D8C7D00BDAA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F0AE294257D8C7D00BDAA5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F0AE296257D8C7D00BDAA5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F0AE299257D8C7D00BDAA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F0AE29B257D8C7F00BDAA5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0AE29E257D8C7F00BDAA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F0AE2A0257D8C7F00BDAA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		5F0AE2B0257D8C8000BDAA5F /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0AE2B4257D8C8000BDAA5F /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
 		5F0AE2B6257D8C8000BDAA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD110AD257ECF2200FCDD21 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				5F0AE292257D8C7D00BDAA5F /* AppDelegate.swift */,
-				5F0AE294257D8C7D00BDAA5F /* SceneDelegate.swift */,
 				5F0AE296257D8C7D00BDAA5F /* ViewController.swift */,
-				5F0AE298257D8C7D00BDAA5F /* Main.storyboard */,
+				5FD110AD257ECF2200FCDD21 /* Main.storyboard */,
 				5F0AE29B257D8C7F00BDAA5F /* Assets.xcassets */,
 				5F0AE29D257D8C7F00BDAA5F /* LaunchScreen.storyboard */,
 				5F0AE2A0257D8C7F00BDAA5F /* Info.plist */,
@@ -233,7 +230,7 @@
 			files = (
 				5F0AE29F257D8C7F00BDAA5F /* LaunchScreen.storyboard in Resources */,
 				5F0AE29C257D8C7F00BDAA5F /* Assets.xcassets in Resources */,
-				5F0AE29A257D8C7D00BDAA5F /* Main.storyboard in Resources */,
+				5FD110AE257ECF2200FCDD21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +257,6 @@
 			files = (
 				5F0AE297257D8C7D00BDAA5F /* ViewController.swift in Sources */,
 				5F0AE293257D8C7D00BDAA5F /* AppDelegate.swift in Sources */,
-				5F0AE295257D8C7D00BDAA5F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5F0AE298257D8C7D00BDAA5F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F0AE299257D8C7D00BDAA5F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F0AE29D257D8C7F00BDAA5F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcopolokk.calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcopolokk.calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
