@@ -29,20 +29,23 @@ class ViewController: UIViewController {
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         
+        //What should happen when a non-number button is pressed
+        
         isFinishedTypingNumber = true
         
         calculator.setNumber(displayValue)
         
         if let calcMethod = sender.currentTitle {
             
-            guard let result = calculator.calculate(symbol: calcMethod) else {
-                fatalError("The result of the calculation is nil")
-            }
+            if let result = calculator.calculate(symbol: calcMethod) {
             displayValue = result
+            }
         }
     }
     
     @IBAction func numButtonPressed(_ sender: UIButton) {
+        
+        //What should happen when a number is entered into a keypad
         
         if let numValue = sender.currentTitle {
             if isFinishedTypingNumber == true {
@@ -63,10 +66,4 @@ class ViewController: UIViewController {
             
         }
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-    
 }
